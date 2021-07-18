@@ -1,0 +1,247 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  background: whitesmoke;
+}
+div.logo1 {
+  margin-top: 27px;
+  margin-left: 49px;
+}
+label.logo {
+  font-size: 30px;
+  font-weight: bolder;
+}
+li.active {
+  margin-top: 49px;
+  text-decoration: line-through;
+  text-decoration-color: orangered;
+}
+nav ul li {
+  margin-top: 32px;
+  color: grey;
+}
+button.btn {
+  margin-left: 55px;
+  height: 45px;
+  width: 115px;
+  border-radius: 21px;
+  margin-top: 63px;
+  background-color: orangered;
+  border: none;
+  color: white;
+}
+div.head {
+  padding-left: 254px;
+  margin-top: -427px;
+  font-size: 40px;
+}
+p.text {
+  line-height: 1.4;
+  color: grey;
+  padding-left: 805px;
+  margin-top: -167px;
+}
+hr {
+  width: 53px;
+  margin-left: 808px;
+  margin-top: 24px;
+  border-color: orangered;
+}
+img {
+  border-radius: 50%;
+  /* padding: 22px; */
+  width: 110px;
+  height: 97px;
+}
+div.img1 {
+  padding-left: 13px;
+  margin-top: 14px;
+  float: left;
+  background: white;
+}
+div.img2 {
+  padding-left: 13px;
+  margin-top: 14px;
+  float: left;
+  background: white;
+}
+div.img3 {
+  padding-left: 13px;
+  margin-top: 14px;
+  float: left;
+  background: white;
+}
+div.img4 {
+  padding-left: 13px;
+  margin-top: 14px;
+  float: left;
+  background: white;
+}
+div.img5 {
+  padding-left: 13px;
+  margin-top: 14px;
+  float: left;
+  background: white;
+}
+div.img {
+  margin-top: 144px;
+  margin-left: 130px;
+}
+div.border {
+  width: 133px;
+  height: 166px;
+  padding-left: -24px;
+  margin-left: 141px;
+  margin-top: -35px;
+  background: white;
+  border-radius: 17px;
+  box-shadow: 0px 6px 0px 0px rgb(211, 210, 210);
+}
+div.border2 {
+  width: 133px;
+  height: 166px;
+  padding-left: -24px;
+  margin-left: 313px;
+  margin-top: -166px;
+  background: white;
+  border-radius: 17px;
+  box-shadow: 0px 6px 0px 0px rgb(211, 210, 210);
+}
+div.border3 {
+  width: 133px;
+  height: 166px;
+  padding-left: -24px;
+  margin-left: 485px;
+  margin-top: -166px;
+  background: white;
+  border-radius: 17px;
+  box-shadow: 0px 6px 0px 0px rgb(211, 210, 210);
+}
+div.border4 {
+  width: 133px;
+  height: 166px;
+  padding-left: -24px;
+  margin-left: 661px;
+  margin-top: -166px;
+  background: white;
+  border-radius: 17px;
+  box-shadow: 0px 6px 0px 0px rgb(211, 210, 210);
+}
+div.border5 {
+  width: 133px;
+  height: 166px;
+  padding-left: -24px;
+  margin-left: 840px;
+  margin-top: -166px;
+  background: white;
+  border-radius: 17px;
+  box-shadow: 0px 6px 0px 0px rgb(211, 210, 210);
+}
+h4 {
+  background: white;
+}
+nav #icon {
+  display: none;
+  color: orangered;
+  padding-left: 4vh;
+  margin-top: -6vh;
+}
+
+div.icon2 {
+  display: none;
+}
+
+h1.newlogo {
+  display: none;
+}
+@media (max-width: 989px) {
+  nav #icon {
+    display: block;
+  }
+  nav ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: white;
+    text-align: center;
+    margin-top: -22px;
+    transition: all 0.5s;
+    left: -100%;
+  }
+  nav li {
+    display: block;
+  }
+  nav ul.show {
+    left: 0;
+  }
+  label.logo {
+    display: none;
+  }
+  h1.newlogo {
+    display: block;
+    padding-left: 37%;
+    font-size: 7vh;
+    margin-top: 2vh;
+  }
+
+  button.btn {
+    display: none;
+  }
+
+  div.icon2 {
+    display: block;
+    color: orangered;
+    float: right;
+    padding-right: 3vh;
+    /* margin-bottom: 2vh; */
+    margin-top: -5vh;
+  }
+  div.head {
+    padding-left: 30px;
+    margin-top: 53px;
+    font-size: 20px;
+  }
+  div.img {
+    margin-top: -552px;
+    margin-left: -111px;
+  }
+  div.border3 {
+    width: 133px;
+    height: 166px;
+    padding-left: -24px;
+    margin-left: 147px;
+    margin-top: 62px;
+    background: white;
+    border-radius: 17px;
+    box-shadow: 0px 6px 0px 0px rgb(211 210 210);
+  }
+  div.border4 {
+    width: 133px;
+    height: 166px;
+    padding-left: -24px;
+    margin-left: 324px;
+    margin-top: -166px;
+    background: white;
+    border-radius: 17px;
+    box-shadow: 0px 6px 0px 0px rgb(211 210 210);
+  }
+  div.border5 {
+    display: none;
+  }
+  p.text {
+    line-height: 1.4;
+    color: grey;
+    padding-left: 43px;
+    margin-top: 480px;
+  }
+  hr {
+    margin-left: 47px;
+    width: 53px;
+    /* margin-left: 719px; */
+    margin-top: 20px;
+    border-color: orangered;
+  }
+}
